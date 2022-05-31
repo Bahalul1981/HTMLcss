@@ -36,10 +36,21 @@ nav{
 }
 .navbar li{
     margin: 50px;
+    
 }
 
 .navbar li a{
     color: rgba(11, 53, 5, 0.979);
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    transition: 1s;
+}
+.navbar li a:hover{
+    background-color: rgba(0, 0, 0, 0.798);
+    color: white;
+    
+    
 }
 
 .logoimg{
