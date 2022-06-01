@@ -13,7 +13,7 @@ nav{
     display: flex;
     width: 100%;
     margin: auto;
-    background-color: rgba(51, 85, 42, 0.568);
+    background-color: rgba(21, 80, 5, 0.568);
     height: 15rem;
 
 }
@@ -22,9 +22,10 @@ nav{
     flex: 0.5;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   
-    
 }
+
 .navbar{
     width: 100%;
     display: flex;
@@ -41,7 +42,6 @@ nav{
 
 .navbar li a{
     color: rgba(11, 53, 5, 0.979);
-    padding: 1rem;
     border-radius: 15px;
     font-size: 1.3rem;
     transition: 1s;
@@ -49,6 +49,7 @@ nav{
 .navbar li a:hover{
     background-color: rgba(0, 0, 0, 0.798);
     color: white;
+    padding: 10px 50px;
     
     
 }
@@ -58,7 +59,15 @@ nav{
     width: 150px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(11, 53, 5, 0.979);
-    opacity: 80%;
+    opacity: 50%;
+    transition: 3s;
+    cursor: pointer;
+}
+.logoimg:hover{
+    height: 370px;
+    width: 300px;
+    opacity: 200%;
+    box-shadow: 5px 5px 5px rgba(4, 4, 4, 0.979);
 }
 
 
@@ -78,8 +87,13 @@ nav{
     margin: auto;
     background-size: cover;
     background-position: center;
-   
+    cursor: pointer;
+    transition: 3s;
 
+}
+.mainimg:hover{
+    width: 100%;
+    background-color: rgb(6, 6, 6);
 }
 
 .ptext{
