@@ -72,9 +72,20 @@ nav{
     box-shadow: 5px 5px 5px rgba(4, 4, 4, 0.979);
 }
 
+.section1{
+    text-align: center;
+    margin-top: 3rem;
+}
+.section1 h1{
+    font-size: 3rem;
+    color: rgba(11, 53, 5, 0.979);
+    text-shadow: 3px 3px 3px rgba(74, 103, 154, 0.51);
+    margin-bottom: 4rem;
+
+}
 
 .secondtex{
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 4rem;
     color: rgba(11, 53, 5, 0.979);
@@ -126,6 +137,12 @@ nav{
 }
 .icon img{
     margin: 2px;
+    transition: 0.8s;
+}
+.icon img:hover{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
 }
 
 
