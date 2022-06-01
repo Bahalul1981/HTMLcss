@@ -13,10 +13,11 @@ nav{
     display: flex;
     width: 100%;
     margin: auto;
-    background-color: rgba(21, 80, 5, 0.568);
+    background-color: rgb(0, 0, 0);
     height: 15rem;
 
 }
+
 .logo{
     display: flex;
     flex: 0.5;
@@ -45,10 +46,11 @@ nav{
     border-radius: 15px;
     font-size: 1.3rem;
     transition: 1s;
+    color: white;
 }
 .navbar li a:hover{
-    background-color: rgba(0, 0, 0, 0.798);
-    color: white;
+    background-color: rgb(252, 249, 249);
+    color: rgb(4, 4, 4);
     padding: 10px 50px;
     
     
@@ -59,13 +61,13 @@ nav{
     width: 150px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(11, 53, 5, 0.979);
-    opacity: 50%;
+    opacity: 90%;
     transition: 3s;
     cursor: pointer;
 }
 .logoimg:hover{
-    height: 370px;
-    width: 300px;
+    height: 270px;
+    width: 200px;
     opacity: 200%;
     box-shadow: 5px 5px 5px rgba(4, 4, 4, 0.979);
 }
@@ -112,8 +114,8 @@ nav{
     justify-content: space-around;
     padding-top: 4rem;
     position: absolute;
-    background-color: rgba(51, 85, 42, 0.568);
-    color: rgba(11, 53, 5, 0.979);
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.979);
     margin-bottom: 0;
    
     
@@ -219,7 +221,7 @@ button{
             }
 
         .navbar li a{
-            color: rgb(5, 31, 53);
+            color: white;
            
     
             }
